@@ -109,3 +109,33 @@ h3{
 .list-group{
 	margin: 30px 100px 30px 100px;
 }
+
+.hoteis{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.hotel{
+	width: 30%;
+	margin: 30px 80px 30px 80px;
+}
+
+.checked {
+	color: orange;
+}
+
+.fa-star{
+	display: flex;
+	flex-direction: row;
+}
+
+.linkHt{
+	pointer-events: none;
+}
+
+.hoteis a{
+	color: #159809;
+	text-decoration: none;
+}
