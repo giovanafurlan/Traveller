@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap');
+
+*{
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+.nome{
+	font-family: 'Faster One', cursive;
+	font-size: 70px;
+	text-align: center;
+	color: #159809;
+}
+
+.sobre{
+	margin: 30px 30px 0 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.inicial{
+	width: 30%;
+	border: 1px solid;
+}
+
+.texto{
+	margin: 0 30px 30px 30px;
+	font-size: 20px;
+}
+
+.sobre2{
+	margin: 30px 30px 0 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.aviao{
+	width: 50%;
+}
+
+.texto2{
+	margin: 0 30px 30px 30px;
+	font-size: 10px;
+}
+
+.cidade{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.sp{
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.cidadeFt{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.fotos{
+	width: 30%;
+	border: 2px solid;
+}
+
+.paisagem{
+	width: 40%;
+	border: 2px solid;
+}
+
+.texto3{
+	margin: 30px;
+	font-size: 20px;
+}
+
+.btn2{
+	color: #159809;
+	font-size: 20px;
+	background-color: white;
+	border: #159809 solid 1px;
+	text-transform: uppercase;
+	padding: 5px 50px 5px 50px;
+}
+
+.btn2:hover{
+	background-color: #159809;
+}
+
+.dicas{
+	display: flex;
+	justify-content: center;
+}
+
+h4,h3,a{
+	color: rgb(104, 100, 100);
+}
+
+a{
+	font-size: 20px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+.list-group{
+	margin: 30px;
+}
