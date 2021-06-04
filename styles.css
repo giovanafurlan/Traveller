@@ -2,6 +2,7 @@
 
 *{
 	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 100;
 }
 
 .nome{
@@ -24,7 +25,7 @@
 }
 
 .texto{
-	margin: 0 30px 30px 30px;
+	margin: 30px;
 	font-size: 20px;
 }
 
@@ -39,19 +40,14 @@
 }
 
 .texto2{
-	margin: 0 30px 30px 30px;
-	font-size: 10px;
+	margin: 30px;
+	font-size: 20px;
 }
 
 .cidade{
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
-}
-
-.sp{
-	font-size: 25px;
-	text-transform: uppercase;
 }
 
 .cidadeFt{
@@ -94,18 +90,22 @@
 	justify-content: center;
 }
 
-h4,h3,a{
-	color: rgb(104, 100, 100);
+h4,h3{
+	color: rgb(119, 116, 116);
+	margin: 10px;
 }
 
 a{
 	font-size: 20px;
 }
 
+h4{
+	font-size: 30px;
+}
 h3{
 	font-size: 25px;
 }
 
 .list-group{
-	margin: 30px;
+	margin: 30px 100px 30px 100px;
 }
