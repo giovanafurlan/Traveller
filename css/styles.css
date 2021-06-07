@@ -162,3 +162,31 @@ h3{
 .navbar-brand{
 	border: none;
 }
+
+.imagem{
+	display: flex;
+	justify-content: center;
+}
+
+.saoPaulo{
+	width: 50vw;
+	height: 50vh;
+	border: 1px solid;
+}
+
+.cidade h4{
+	margin: 0;
+}
+
+.cidade h3{
+	font-size: 20px;
+}
+
+.carousel{
+	width: 40%;
+	margin-left: 32%;
+}
+
+.star2{
+	justify-content: center;
+}
