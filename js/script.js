@@ -1,7 +1,7 @@
-// document.querySelector('#botao').addEventListener('click', ()=> {
-//     var signo = prompt("Qual é o seu signo?");
-//     alert('Seu email é ' + signo);
-// });
+document.querySelector('#botao').addEventListener('click', ()=> {
+    var problema = prompt("Reportar um problema");
+    alert("Seu problema " + problema + " foi reportado");
+});
 
 
-import { Tooltip as Tooltip, Toast as Toast, Popover as Popover } from 'bootstrap';
+// import { Tooltip as Tooltip, Toast as Toast, Popover as Popover } from 'bootstrap';
