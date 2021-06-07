@@ -169,7 +169,7 @@ h3{
 }
 
 .saoPaulo{
-	width: 50vw;
+	width: 40vw;
 	height: 50vh;
 	border: 1px solid;
 }
@@ -189,4 +189,20 @@ h3{
 
 .star2{
 	justify-content: center;
+}
+
+.loc{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.mapaTxt{
+	display: flex;
+	justify-content: center;
+}
+
+iframe{
+	margin-left: 33.5%;
 }
