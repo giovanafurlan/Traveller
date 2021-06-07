@@ -119,7 +119,8 @@ h3{
 
 .hotel{
 	width: 30%;
-	margin: 30px 80px 30px 80px;
+	margin: 10px 0 10px 0;
+	border: 1px solid;
 }
 
 .checked {
@@ -138,4 +139,26 @@ h3{
 .hoteis a{
 	color: #159809;
 	text-decoration: none;
+}
+
+.list-group-item{
+	pointer-events: painted;
+}
+
+.checked {
+	color: orange;
+}
+
+.star{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+.none{
+	pointer-events: none;
+}
+
+.navbar-brand{
+	border: none;
 }
