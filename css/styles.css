@@ -230,3 +230,13 @@ span{
 	justify-content: center;
 	margin-bottom: 10px;
 }
+
+.textoHt{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.card-img-top{
+	width: 250px;
+	height: 200px;
+}
