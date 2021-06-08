@@ -15,9 +15,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon//favicon-16x16.png">
     <link rel="manifest" href="./favicon//site.webmanifest">
+
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/script.js"></script>
-
     <title>Confort Ibirapuera</title>
 </head>
 
@@ -67,12 +72,26 @@
     <div class="cidade">
         <h3>Confort Ibirapuera</h3>
     </div>
-    <div class="star star2">
+
+    <!-- <div class="star star2">
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
+    </div> -->
+
+    <div class="estrelas">
+        <a href="javascript:void(0)" onclick="Avaliar(1)">
+            <img src="./images/star0.png" id="s1"></a>
+        <a href="javascript:void(0)" onclick="Avaliar(2)">
+            <img src="./images/star0.png" id="s2"></a>
+        <a href="javascript:void(0)" onclick="Avaliar(3)">
+            <img src="./images/star0.png" id="s3"></a>
+        <a href="javascript:void(0)" onclick="Avaliar(4)">
+            <img src="./images/star0.png" id="s4"></a>
+        <a href="javascript:void(0)" onclick="Avaliar(5)">
+            <img src="./images/star0.png" id="s5"></a>
     </div>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -114,8 +133,10 @@
     </div>
 
     <div class="loc">
-        <i class="fas fa-map-marker-alt"></i>
-        <h3>Localização</h3>
+        <span>
+            <i class="fas fa-map-marker-alt"></i>
+            Localização
+        </span>
     </div>
 
     <div class="mapaTxt">
@@ -128,7 +149,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <button class="navbar-brand" id="botao" onclick="reportar()"><i class="fas fa-exclamation-triangle"></i> Reportar
+            <button class="navbar-brand" id="botao" onclick="reportar()"><i class="fas fa-exclamation-triangle"></i>
+                Reportar
                 Problema</button>
         </div>
     </nav>

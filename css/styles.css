@@ -118,7 +118,7 @@ h3{
 }
 
 .hotel{
-	width: 30%;
+	width: 40%;
 	margin: 10px 0 10px 0;
 	border: 1px solid;
 }
@@ -205,4 +205,28 @@ h3{
 
 iframe{
 	margin-left: 33.5%;
+}
+
+.integrantes{
+	display: flex;
+	justify-content: row;
+	width: 80%;
+	margin-left: 9%;
+}
+
+.card{
+	display: flex;
+	justify-content: space-between;
+}
+
+span{
+	color: rgb(119, 116, 116);
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 25px;
+}
+
+.estrelas{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
 }
