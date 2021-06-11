@@ -64,10 +64,20 @@
     </div>
 
     <div class="sobreTxt">
-        <p class="texto">Gulliver Traveller é um jovem blogueiro de 26 anos, amante de viagens de turismo e explorador de lindas cidades e paisagens de encher os olhos. Em seu blog, Gulliver conta todas as suas aventuras e desbravamentos pelos confins do mundo trazendo, para seus leitores, dicas de viagens e de lugares pouco explorados pelos turistas menos experientes.
-            Assim foi criado a Travaller, um blog de viagem com tudo que é necessário saber para ter as melhores experiências, a plataforma conta dicas úteis para tornar sua viagem cada vez melhor, e com cada vez menos perrengues, para se sentir preparado com o que precisar, o site também conta uma lista de hotéis que o Gulliver já visitou. 
-            Ele mostra as dicas úteis relacionados à um determinado local. Essas dicas úteis podem ser: quando ir; temperatura média anual; fuso horário; tempo médio de permanência conforme objetivo; negócio ou passeio; idioma; voltagem e tipo de tomada; moeda; bagagem; e como se locomover.
-            O blog conta também com uma lista de hospedagens que o Gulliver já visitou, cada hotel listado é informado, seu nome, fotos do ambiente, uma descrição dos serviços disponíveis, a sua localização, e também quem já visitou pode classificar o hotel de acordo com sua satisfação com ele.</p>
+        <p class="texto">Gulliver Traveller é um jovem blogueiro de 26 anos, amante de viagens de turismo e explorador
+            de lindas cidades e paisagens de encher os olhos. Em seu blog, Gulliver conta todas as suas aventuras e
+            desbravamentos pelos confins do mundo trazendo, para seus leitores, dicas de viagens e de lugares pouco
+            explorados pelos turistas menos experientes.
+            Assim foi criado a Travaller, um blog de viagem com tudo que é necessário saber para ter as melhores
+            experiências, a plataforma conta dicas úteis para tornar sua viagem cada vez melhor, e com cada vez menos
+            perrengues, para se sentir preparado com o que precisar, o site também conta uma lista de hotéis que o
+            Gulliver já visitou.
+            Ele mostra as dicas úteis relacionados à um determinado local. Essas dicas úteis podem ser: quando ir;
+            temperatura média anual; fuso horário; tempo médio de permanência conforme objetivo; negócio ou passeio;
+            idioma; voltagem e tipo de tomada; moeda; bagagem; e como se locomover.
+            O blog conta também com uma lista de hospedagens que o Gulliver já visitou, cada hotel listado é informado,
+            seu nome, fotos do ambiente, uma descrição dos serviços disponíveis, a sua localização, e também quem já
+            visitou pode classificar o hotel de acordo com sua satisfação com ele.</p>
     </div>
 
     <div class="cidade">
@@ -120,6 +130,22 @@
                 Problema</button>
         </div>
     </nav>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "f3cecce5-cfb3-41c3-96e9-fde7e05ba990", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "5bb08391-35fb-4f43-a780-65119974eb1c", // The ID of your service instance.
+            onLoad: function (instance) {
+                instance.render();
+            }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+            document.head.appendChild(t);
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
